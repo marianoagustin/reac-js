@@ -1,14 +1,15 @@
 function NavBar() { 
     return (
         <header>
-            <nav>
-                <p>Mirano-Kids</p>
-                <select >
+            <nav className="header-nav"> 
+                <p className="titulo-nav">Mirano-Kids</p>
+                <select className="talles">
                     <option value="all">Todos</option>
                     <option value="L">Large</option>
                     <option value="M">Medium</option>
                     <option value="S">Small</option>
                 </select>
+                
             </nav>
         </header>
     );
