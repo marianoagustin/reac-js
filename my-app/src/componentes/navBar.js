@@ -1,3 +1,7 @@
+import Car from "./carrito/CartWidget";
+
+
+
 function NavBar() { 
     return (
         <header>
@@ -9,7 +13,7 @@ function NavBar() {
                     <option value="M">Medium</option>
                     <option value="S">Small</option>
                 </select>
-                
+                <Car />
             </nav>
         </header>
     );
