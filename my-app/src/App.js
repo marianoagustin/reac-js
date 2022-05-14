@@ -1,21 +1,27 @@
 import './componentes/navBar.css'
 import './App.css';
 import NavBar from './componentes/navBar';
-
+// import Car from './componentes/carrito/CartWidget';
+import Titulo from './componentes/titulo/ItemListContainer';
+import Formulario from './componentes/formulario/Formulario';
 
 function App() {
 
-console.log(`hola mundo`);
-
   return (
-    <div className="App">
-          <NavBar />
+    <div>
       <header className="App-header" >
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+          <NavBar />
+        </header>
+          <div>
+
+            <Titulo Titulo='soy titulo de App' subtit='soy subtitulo de app' />
+        
+          </div>
+        
+        <Formulario/>
+    
     </div>
+    
   );
 }
 
